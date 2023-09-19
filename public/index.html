@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="icon" type="image/png" href="assets/img/educator-fabicon-300x300.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" media="all">
+    <!-- Fonts Awesome CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/fontawesome/css/all.min.css">
+    <!-- Elmentkit Icon CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/elementskit-icon-pack/assets/css/ekiticons.css">
+    <!-- progress bar CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/progressbar-fill-visible/css/progressBar.css">
+    <!-- jquery-ui css -->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/jquery-ui/jquery-ui.min.css">
+    <!-- modal video css -->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/modal-video/modal-video.min.css">
+    <!-- light box css -->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/fancybox/dist/jquery.fancybox.min.css">
+    <!-- slick slider css -->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/slick/slick-theme.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="edusync/src/Components/css/main.css">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+        <!-- JavaScript -->
+        <script src="assets/vendors/jquery/jquery.js"></script>
+        <script src="assets/vendors/waypoint/jquery.waypoints.min.js"></script>
+        <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/vendors/jquery-ui/jquery-ui.min.js"></script>
+        <script src="assets/vendors/progressbar-fill-visible/js/progressBar.min.js"></script>
+        <script src="assets/vendors/countdown-date-loop-counter/loopcounter.js"></script>
+        <script src="assets/vendors/counterup/jquery.counterup.js"></script>
+        <script src="assets/vendors/modal-video/jquery-modal-video.min.js"></script>
+        <script src="assets/vendors/masonry/masonry.pkgd.min.js"></script>
+        <script src="vendors/fancybox/dist/jquery.fancybox.min.html"></script>
+        <script src="assets/vendors/slick/slick.min.js"></script>
+        <script src="assets/vendors/slick-nav/jquery.slicknav.js"></script>
+        <script src="assets/js/custom.js"></script>
+        
+        <script>
+        $(function(){
+             $('#myModal').modal('show');
+        });
+    </script>   
+    
+        <script>
+         (function () {
+            var options = {
+                whatsapp: "+919354936850", // WhatsApp number
+                call_to_action: "Message us", // Call to action
+                position: "left", // Position may be 'right' or 'left'
+            };
+            var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();
+    </script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/603099b2918aa2612740bf98/1f0bj6ia7';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <script type="text/javascript" language="javascript">
+    
+         $(function() {
+    
+                $(this).bind("contextmenu", function(e) {
+    
+                    e.preventDefault();
+    
+                });
+    
+            }); 
+    </script>
+    <script type="text/JavaScript"> 
+    function killCopy(e){ return false } 
+    function reEnable(){ return true } 
+    document.onselectstart=new Function ("return false"); 
+    if (window.sidebar)
+    { document.onmousedown=killCopy; 
+    document.onclick=reEnable; } 
+    </script>
+    <!--End of Tawk.to Script-->
+     <script>
+                $(function(){
+            
+                    
+                    $("form").submit(function(e){
+                        $(".formbtn").attr('disabled', true);
+                        e.preventDefault();
+                        $.ajax({
+                            url: "../mail.php",
+                            type: "POST",
+                            data: new FormData(this),
+                            contentType: false,
+                            processData: false,
+                            success: function(res){
+                                alert(res);
+                                window.location.reload();
+                            }
+                        })
+                    })
+                })
+            </script>
+  </body>
+</html>
