@@ -66,7 +66,7 @@ export default function Header() {
                 <div class="site-identity col-lg-3">
                     <p class="site-title">
                         <a href="index.html">
-                            <img src="assets/logo.png" alt="logo"/>
+                            <img src={require("./img/educator-fabicon-300x300.png")} alt="logo"/>
                         </a>
                     </p>
                 </div>

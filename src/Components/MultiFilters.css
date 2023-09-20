@@ -10,7 +10,7 @@
 }
 
 .project-link{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 /* CSS */
@@ -85,9 +85,11 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
-    height: fit-content;
+    padding-left: 20%;
+    padding-right: 20%;
+    height: minmax(0,1fr);
+    overflow: visible;
+    padding-bottom: 17%;
 
 }
 .item{
@@ -95,6 +97,7 @@
     border-radius: 25px;
     padding: 40px;
     text-align: center;
+    
 }
 
 .Grid-Header { font-family: Pacifico; font-size: 4rem; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px;

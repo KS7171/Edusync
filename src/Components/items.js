@@ -3,6 +3,7 @@ export const items = [
         // idx:0,
         name: 'Finance',
         category: 'Business',
+        image: "./assets/img/educator-img1.png",
     },
     {
         // idx:1,

@@ -40,8 +40,12 @@ export default function Footer() {
                                         <h4>Our Expertise Is Best Earned Through
                                             Our Experience</h4>
                                     </div>
-                                    <figure class="fact-image top-right-image"></figure>
-                                    <figure class="fact-image bottom-left-image"></figure>
+                                    <figure class="fact-image top-right-image">
+                                        {/* <img src={require("./img/educator-img29.jpg")}  alt=""/> */}
+                                    </figure>
+                                    <figure class="fact-image bottom-left-image">
+                                        {/* <img src={require("./img/educator-img29.jpg")}  alt=""/> */}
+                                    </figure>
                                     <div class="fact-content bottom-right-content">
                                         <div class="pattern-overlay circle-c-patten"></div>
                                         <h4>Our Best Team For Your Any Advice For Your Education</h4>

@@ -3629,11 +3629,11 @@ input[type=submit]:focus {
   }
 }
 .home-fact-section .fact-right-inner-wrap .fact-inner-box .top-right-image {
-  background-image: url(/home/ubuntu/Desktop/ReactAPP/edusync/src/Components/assets/img/educator-img27.jpg);
+  background-image: url("../img/educator-img27.jpg");
   background-position: center right;
 }
 .home-fact-section .fact-right-inner-wrap .fact-inner-box .bottom-left-image {
-  background-image: url(/home/ubuntu/Desktop/ReactAPP/edusync/src/Components/assets/img/educator-img28.jpg);
+  background-image: url("../img/educator-img28.jpg");
   background-position: center left;
 }
 .home-fact-section .fact-right-inner-wrap .fact-inner-box .bottom-right-content {

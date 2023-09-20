@@ -18,7 +18,7 @@ Our Academic Structure</h2>
                                 <div class="col-sm-6 col-lg-4 pe-3 ps-3 pt-4 pt-lg-0 inner-course">
                                     <article class="post">
                                         <figure class="feature-image">
-                                            <img src="assets/img/educator-img30.jpg" alt=""/>
+                                            <img src={require("./img/educator-img30.jpg")}  alt=""/>
                                             <a href="#" class="bookmark-icon">
                                                 <i aria-hidden="true" class="far fa-bookmark"></i>
                                             </a>
@@ -42,7 +42,7 @@ Our Academic Structure</h2>
                                 <div class="col-sm-6 col-lg-4 pe-3 ps-3 pt-4 pt-lg-0 inner-course">
                                     <article class="post">
                                         <figure class="feature-image">
-                                            <img src="assets/img/educator-img29.jpg" alt=""/>
+                                            <img src={require("./img/educator-img29.jpg")}  alt=""/>
                                             <a href="#" class="bookmark-icon">
                                                 <i aria-hidden="true" class="far fa-bookmark"></i>
                                             </a>
@@ -64,7 +64,7 @@ Our Academic Structure</h2>
                                 <div class="col-sm-6 col-lg-4 pe-3 ps-3 pt-4 pt-lg-0 inner-course">
                                     <article class="post">
                                         <figure class="feature-image">
-                                            <img src="assets/img/educator-img31.jpg" alt=""/>
+                                            <img src={require("./img/educator-img31.jpg")} alt=""/>
                                             <a href="#" class="bookmark-icon">
                                                 <i aria-hidden="true" class="far fa-bookmark"></i>
                                             </a>
@@ -87,7 +87,7 @@ Our Academic Structure</h2>
                                 <div class="col-sm-6 col-lg-4 pe-3 ps-3 pt-4 pt-lg-0 inner-course">
                                     <article class="post">
                                         <figure class="feature-image">
-                                            <img src="assets/img/educator-img31.jpg" alt=""/>
+                                            <img src={require("./img/educator-img28.jpg")} alt=""/>
                                             <a href="#" class="bookmark-icon">
                                                 <i aria-hidden="true" class="far fa-bookmark"></i>
                                             </a>
@@ -110,7 +110,7 @@ Our Academic Structure</h2>
                                 <div class="col-sm-6 col-lg-4 pe-3 ps-3 pt-4 pt-lg-0 inner-course">
                                     <article class="post">
                                         <figure class="feature-image">
-                                            <img src="assets/img/educator-img31.jpg" alt=""/>
+                                            <img src={require("./img/educator-img27.jpg")} alt=""/>
                                             <a href="#" class="bookmark-icon">
                                                 <i aria-hidden="true" class="far fa-bookmark"></i>
                                             </a>

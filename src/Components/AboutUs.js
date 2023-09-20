@@ -8,7 +8,7 @@ export default function AboutUs() {
                         <div class="col-md-6 ">
                             <div class="about-left-content">
                                 <figure class="figure-round-border">
-                                    <img src="assets/img/educator-img13.jpg" alt=""/>
+                                    <img src={require("./img/educator-img13.jpg")} alt="Alternativce image"/>
                                 </figure>
                                 <div class="skill-container">
                                     <div class="skill-wrapper">
@@ -50,7 +50,7 @@ unique content
 
                                 </p>
                                 <figure class="figure-round-border">
-                                    <img src="assets/img/educator-img12-500px.jpg" alt=""/>
+                                    <img src={require("./img/educator-img12-500px.jpg")}  alt=""/>
                                 </figure>
                             </div>
                         </div>

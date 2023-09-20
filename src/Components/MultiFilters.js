@@ -31,7 +31,7 @@ export default function MultiFilters() {
   }
 
   return (
-    <div>
+    <div className='Grid-Section'>
 
         <h3 className='Grid-Header'>We Have All Types Of Specialized Projects</h3>
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pacifico" />
@@ -58,6 +58,7 @@ export default function MultiFilters() {
                  inital={{opacity: 0}} 
                  exit={{opacity: 0}} 
                  transition={{duration: 0.2}}  >
+                    <img href={item.image}/>
                     <a className='project-link' href='www.google.com'>{item.name}</a>
                     <p className='cat'>{item.category}</p>
                 </motion.div>
