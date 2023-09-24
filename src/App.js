@@ -1,7 +1,6 @@
 import React from 'react';
 import  Header from './Components/Header';
 import  HomeBanner from './Components/HomeBanner';
-import  Service from './Components/Service';
 import  Course from './Components/Course';
 import Footer from './Components/Footer';
 // import Carasouel from './Components/carasouel';
@@ -17,10 +16,7 @@ function App() {
     <div>
       <Header id="content" class="site-main"/>
       <HomeBanner/>
-      {/* <Carasouel/> */}
-      {/* <Filter/> */}
       <MultiFilter/>
-      {/* <Service/> */}
       <Course/>
       <Footer/>
     </div>

@@ -32,26 +32,8 @@ export default function Footer() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="fact-right-inner-wrap">
-                                <div class="fact-inner-box">
-                                    <div class="fact-content top-left-content">
-                                        <div class="pattern-overlay circle-patten"></div>
-                                        <h4>Our Expertise Is Best Earned Through
-                                            Our Experience</h4>
-                                    </div>
-                                    <figure class="fact-image top-right-image">
-                                        {/* <img src={require("./img/educator-img29.jpg")}  alt=""/> */}
-                                    </figure>
-                                    <figure class="fact-image bottom-left-image">
-                                        {/* <img src={require("./img/educator-img29.jpg")}  alt=""/> */}
-                                    </figure>
-                                    <div class="fact-content bottom-right-content">
-                                        <div class="pattern-overlay circle-c-patten"></div>
-                                        <h4>Our Best Team For Your Any Advice For Your Education</h4>
-                                    </div>
-                                </div>
-                            </div>
+                        <div className="banner-right">
+                            <img src={require("./img/Homepage.png")} alt='EduSync' height={400} width={400}/>
                         </div>
                     </div>
                 </div>
@@ -67,7 +49,7 @@ export default function Footer() {
                                
                                 <div class="textwidget widget-text">
                                       <h5 class="widget-title">About Us</h5>
-                                    Academic services will assist you in every way and will response you 24*7. We provide unique content plagiarism report in easy word with 100% approval guarantee and will take all responsibility of your work with in given time period
+                                      At Edusync, we're on a mission to empower students, educators, and knowledge seekers to connect, collaborate, and share their innovative projects with the world. Our platform is designed to foster a vibrant community where ideas thrive, and learning knows no bounds.
                                 </div>
                             </aside>
                             <div class="footer-social-links">
@@ -105,9 +87,7 @@ export default function Footer() {
                                     <li>
                                         <a href="contact-us/index.html">Contact Us</a>
                                     </li>
-                                    <li>
-                                        <a href="https://pages.razorpay.com/pl_HG5PWKkyz0X1tT/view">Payment</a>
-                                    </li>
+                        
                                    
                                 </ul>
                             </aside>
@@ -123,11 +103,9 @@ export default function Footer() {
                                         <a href="mba-project-report/index.html">Project Report</a>
                                     </li>
                                      <li>
-                                        <a href="synopsis-report/index.html">Synopsis Report</a>
+                                        <a href="synopsis-report/index.html">Posters</a>
                                     </li>
-                                    <li>
-                                        <a href="phd-thesis/index.html">PHD Thesis</a>
-                                    </li>
+                                   
                                     <li>
                                         <a href="programming/index.html">Programming</a>
                                     </li>
@@ -140,15 +118,15 @@ export default function Footer() {
                                 <h5 class="widget-title">Contact Us</h5>
                                 <span>
                                     <i aria-hidden="true" class="far fa-building"></i>
-                                    Logix Technova, Block B, Sector 132, Noida, Uttar Pradesh 201304
+                                Maharaja Agrasen Institute of Technolgy Rohini Sector 22 New Delhi
                                 </span>
 
                                 <span>
                                     <i aria-hidden="true" class="far fa-envelope"></i>
-                                   info@academicservices.in
+                                   @Edusync.com
                                 </span>
                                 <br/>
-                                <a href="tel:+919354936850" class="button-33">+91 93549 36850</a>
+                                <a href="tel:+919354936850" class="button-33">+91 8696947171</a>
 
                                  
                             </aside>
@@ -160,7 +138,7 @@ export default function Footer() {
                 <div class="bottom-footer">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="copy-right">Copyright &copy; 2017-2023 AcademicServices. All rights reserved.</div>
+                            <div class="copy-right">All Rights are reserved to Team Devateurs but you just have to ask ;).</div>
                         </div>
                         <div class="col-md-6">
                             <div class="legal-list">

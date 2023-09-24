@@ -11,10 +11,10 @@ export default function HomeBanner() {
                             <div class="banner-content">
                                 <div class="title-divider"></div>
                                 <div class="banner-title">
-                                    <h1>The Best Online Project Sharing Platform</h1>
+                                    <h1>Unlocking Creativity, Sharing Knowledge: Where Ideas Take Flight!</h1>
                                 </div>
                                 <div class="banner-text">
-                                    <p>We offer solution to different areas of research and writings Assignments-project report-Topic selection-proposal/synopsis.M.phil| Ph.D. Thesis-PPT and plagiarism-free solution</p>
+                                    <p></p>
                                 </div>
                                 <div class="banner-button">
                                      <button type="button" class="button-78" data-bs-toggle="modal" data-bs-target="#myModal">Upload Project</button>

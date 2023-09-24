@@ -965,25 +965,25 @@ h1, h2, h3, h4, h5, h6 {
 
 .genric-btn.info {
   color: #fff;
-  background: #38a4ff;
+  background: #73fbaf;
   border: 1px solid transparent;
 }
 
 .genric-btn.info:hover {
-  color: #38a4ff;
-  border: 1px solid #38a4ff;
+  color: #73fbaf;
+  border: 1px solid #73fbaf;
   background: #fff;
 }
 
 .genric-btn.info-border {
-  color: #38a4ff;
-  border: 1px solid #38a4ff;
+  color: #73fbaf;
+  border: 1px solid #73fbaf;
   background: #fff;
 }
 
 .genric-btn.info-border:hover {
   color: #fff;
-  background: #38a4ff;
+  background: #73fbaf;
   border: 1px solid transparent;
 }
 

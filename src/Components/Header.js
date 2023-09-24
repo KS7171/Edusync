@@ -1,5 +1,5 @@
-import React from 'react'
-import './css/style.css'
+import React from 'react';
+import './css/style.css';
 export default function Header() {
   return (
     <header class="site-header site-header-transparent">
@@ -10,13 +10,13 @@ export default function Header() {
                     <div class="header-contact-info">
                         <ul>
                             <li>
-                                <a href="tel:+919354936850"><i class="fas fa-phone-alt"></i> +91 8696947171</a>
+                                <a href="tel:+91869694771"><i class="fas fa-phone-alt"></i> +91 8696947171</a>
                             </li>
                             <li>
-                                <a href="mailto:info@academicservices.in"><i class="fas fa-envelope"></i>koustub.12@gmail.com</a>
+                                <a href="koustub.13gmail.com"><i class="fas fa-envelope"></i>koustub.12@gmail.com</a>
                             </li>
                             <li>
-                                <i class="fas fa-map-marker-alt"></i>Logix Technova | Rohi | New Delhi
+                                <i class="fas fa-map-marker-alt"></i>MAIT | Rohini | New Delhi
                             </li> 
                         </ul>
                     </div>
@@ -66,10 +66,13 @@ export default function Header() {
                 <div class="site-identity col-lg-3">
                     <p class="site-title">
                         <a href="index.html">
-                            <img src={require("./img/educator-fabicon-300x300.png")} alt="logo"/>
+                            <img src={require("./img/Logo.png")} alt="logo"/>
                         </a>
                     </p>
-                </div>
+               </div>
+
+
+
                 <div class="main-navigation col-lg-9 justify-content-between d-flex align-items-center">
                     <nav id="navigation" class="navigation d-none d-lg-inline-block">
                         <ul>
@@ -78,34 +81,23 @@ export default function Header() {
                             </li>
                             
                             <li>
-                                <a href="mba-solved-assignments/index.html">Assignment</a>
+                                <a href="mba-solved-assignments/index.html">Projects</a>
                                 
                             </li>
                            
                             <li>
-                                <a href="mba-project-report/index.html">Project Report</a>
+                                <a href="mba-project-report/index.html">Categories</a>
                             </li>
                             
                             <li>
-                                <a href="synopsis-report/index.html">Synopsis Report</a>
+                                <a href="synopsis-report/index.html">About Us</a>
                             </li>
-                            
-                            <li>
-                                <a href="phd-thesis/index.html">PHD Thesis</a>
-                            </li>
-                            
-                             <li>
-                                <a href="programming/index.html">Programming</a>
-                            </li>
-                            
-                            <li>
-                                <a href="contact-us/index.html">Dashboard</a>
-                            </li>
+
                             
                         </ul>
                     </nav>
                     <div class="header-btn d-inline-block">
-                        <a href="contact.php" class="button-33">Contact US NOW</a>
+                        <a href="contact.php" class="button-33">LogIn/SignUp</a>
                     </div>
                 </div>
             </div>

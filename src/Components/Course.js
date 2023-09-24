@@ -9,7 +9,7 @@ export default function Course() {
                             <div class="col-lg-6 offset-lg-3">
                                 <div class="title-divider"></div>
                                 <h2 class="section-title">
-Our Academic Structure</h2>
+Featured Projects</h2>
                                
                             </div>
                         </div>
@@ -23,14 +23,14 @@ Our Academic Structure</h2>
                                                 <i aria-hidden="true" class="far fa-bookmark"></i>
                                             </a>
                                             <span class="cat-meta">
-                                                <a href="#">Assignment</a>
+                                                <a href="#">project_1</a>
                                             </span>
                                         </figure>
                                         <div class="entry-content">
                                             <ul>
-                                                <li><a href="#">All Courses</a></li>
+                                                <li><a href="#">Web divider</a></li>
                                                 <li>
-                                                    <a href="#">Specialaization</a>
+                                                    <a href="#">HTML</a>
                                                 </li>
                                             </ul>
                                             
@@ -47,12 +47,12 @@ Our Academic Structure</h2>
                                                 <i aria-hidden="true" class="far fa-bookmark"></i>
                                             </a>
                                             <span class="cat-meta">
-                                                <a href="#">Project Report</a>
+                                                <a href="#">project_2</a>
                                             </span>
                                         </figure>
                                         <div class="entry-content">
                                              <ul>
-                                                <li><a href="#">All Courses</a></li>
+                                                <li><a href="#">java</a></li>
                                                 <li>
                                                     <a href="#">Specialaization</a>
                                                 </li>
@@ -69,12 +69,12 @@ Our Academic Structure</h2>
                                                 <i aria-hidden="true" class="far fa-bookmark"></i>
                                             </a>
                                             <span class="cat-meta">
-                                                <a href="#">Synopsis Report</a>
+                                                <a href="#">project_3</a>
                                             </span>
                                         </figure>
                                         <div class="entry-content">
                                             <ul>
-                                                <li><a href="#">All Courses</a></li>
+                                                <li><a href="#">Design</a></li>
                                                 <li>
                                                     <a href="#">Specialaization</a>
                                                 </li>
@@ -92,12 +92,12 @@ Our Academic Structure</h2>
                                                 <i aria-hidden="true" class="far fa-bookmark"></i>
                                             </a>
                                             <span class="cat-meta">
-                                                <a href="#">PHD Thesis</a>
+                                                <a href="#">project_4</a>
                                             </span>
                                         </figure>
                                         <div class="entry-content">
                                             <ul>
-                                                <li><a href="#">All Courses</a></li>
+                                                <li><a href="#">Robotics</a></li>
                                                 <li>
                                                     <a href="#">Specialaization</a>
                                                 </li>
@@ -115,7 +115,7 @@ Our Academic Structure</h2>
                                                 <i aria-hidden="true" class="far fa-bookmark"></i>
                                             </a>
                                             <span class="cat-meta">
-                                                <a href="#">Programming</a>
+                                                <a href="#">project_5</a>
                                             </span>
                                         </figure>
                                         <div class="entry-content">
@@ -132,7 +132,7 @@ Our Academic Structure</h2>
 
                                  <div class="col-sm-6 col-lg-4 pe-3 ps-3 pt-4 pt-lg-0 inner-course">
                                     <div class="course-bhn">
-                                         <button type="button" class="button-33" data-bs-toggle="modal" data-bs-target="#myModal">Ask More</button>
+                                         <button type="button" class="button-33" data-bs-toggle="modal" data-bs-target="#myModal">Show More</button>
                                     </div>
                                 </div>
                             </div>
