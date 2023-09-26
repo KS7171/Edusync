@@ -6,6 +6,7 @@ import Footer from './Components/Footer';
 // import Carasouel from './Components/carasouel';
 import Filter from './Components/filter';
 import MultiFilter from "./Components/MultiFilters";
+import {Routes, Route} from 'react-router-dom';
 // import "./Components/assets/js/jquery.sticky.js"
 import './App.css';
 function App() {
@@ -16,7 +17,9 @@ function App() {
     <div>
       <Header id="content" class="site-main"/>
       <HomeBanner/>
+      <Routes>
       <MultiFilter/>
+      </Routes>
       <Course/>
       <Footer/>
     </div>
